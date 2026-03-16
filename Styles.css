@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: rgb(248, 0, 0); /* page background */
+    background: rgb(255, 255, 255); /* page background */
 }
 
 header {
@@ -29,11 +29,11 @@ header {
 /* top half: black, sits above header */
 .logo-top {
     clip-path: inset(0 0 60px 0);  /* show top part only */
-    top: -40px;                    /* move it above header */
+    top: -40px;
 }
 
 /* bottom half: white, sits on header */
 .logo-bottom {
     clip-path: inset(60px 0 0 0); /* show bottom part only */
-    top: 0;                        /* aligns with header top */
+    top: -40px;
 }
