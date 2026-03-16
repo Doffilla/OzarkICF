@@ -5,7 +5,7 @@ body {
 
 header {
     background: black;
-    height: 120px;
+    height: 90px;
     position: relative;
 }
 
@@ -21,19 +21,19 @@ header {
 /* common logo styles */
 .logo img {
     position: absolute;
-    height: 100px;   /* matches container height */
+    height: 70px;   /* matches container height */
     width: auto;
     left: 0;
 }
 
 /* top half: black, sits above header */
 .logo-top {
-    clip-path: inset(0 0 20px 0);  /* show top part only */
-    top: -20px;
+    clip-path: inset(0 0 80px 0);  /* show top part only */
+    top: -15px;
 }
 
 /* bottom half: white, sits on header */
 .logo-bottom {
     clip-path: inset(80px 0 0 0); /* show bottom part only */
-    top: -20px;
+    top: -15px;
 }
