@@ -32,6 +32,6 @@ header {
 }
 
 .logo-bottom {
-    /*clip-path: inset(20px 0 0 0);*/
+    clip-path: inset(20px 0 0 0);
     top: -15px;
 }
