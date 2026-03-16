@@ -1,14 +1,22 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+body{
+    margin:0;
 }
 
-header {
-    background-color: black;
-    height: 200px;
-    width: 100%;
+header{
+    background:black;
+    height:80px;
+    position:relative;
 }
 
-main {
-    padding: 20px;
+/* logo container */
+.logo{
+    position:absolute;
+    left:20px;
+    top:-25px;   /* makes it stick up above header */
+}
+
+/* both images same size */
+.logo img{
+    height:110px;
+    position:absolute;
 }
