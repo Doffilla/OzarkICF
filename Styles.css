@@ -21,7 +21,7 @@ header {
 /* common logo styles */
 .logo img {
     position: absolute;
-    height: 120px;   /* matches container height */
+    height: 100px;   /* matches container height */
     width: auto;
     left: 0;
 }
