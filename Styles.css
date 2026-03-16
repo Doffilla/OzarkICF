@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: black; /* page background is black so top half blends */
+  background: white; /* page background */
 }
 
 header {
@@ -12,27 +12,29 @@ header {
 /* logo container */
 .logo {
   position: absolute;
-  left: 20px;
-  top: -40px; /* logo sticks up above header */
-  height: 120px; /* full logo height */
+  left: 20px;       /* distance from left edge */
+  top: 0;           /* top of logo container aligned with header top */
+  height: 120px;    /* full height of logo (top + bottom) */
   width: auto;
 }
 
 /* common logo styles */
 .logo img {
   position: absolute;
-  height: 120px; /* same as container height */
+  height: 120px;   /* match container height */
   width: auto;
-  top: 0;
   left: 0;
 }
 
-/* top half: black (will blend with page background) */
+/* top half: black, sits above header */
 .logo-top {
-  clip-path: inset(0 0 50% 0); /* show only top 50% */
+  clip-path: inset(0 0 60px 0); /* show only top part above header */
+  top: -40px;                   /* move up so bottom aligns with header top */
 }
 
-/* bottom half: white (on black header) */
+/* bottom half: white, sits on header */
 .logo-bottom {
-  clip-path: inset(50% 0 0 0); /* show only bottom 50% */
+  clip-path: inset(0 0 0 0); /* show entire image */
+  top: 0;                     /* bottom part aligns with header */
+  filter: brightness(0) invert(1); /* turns light logo white */
 }
