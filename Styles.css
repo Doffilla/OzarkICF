@@ -5,7 +5,7 @@ body {
 
 header {
     background: black;
-    height: 90px;
+    height: 70px;
     position: relative;
 }
 
@@ -21,7 +21,7 @@ header {
 /* common logo styles */
 .logo img {
     position: absolute;
-    height: 70px;   /* matches container height */
+    height: 60px;   /* matches container height */
     width: auto;
     left: 0;
 }
