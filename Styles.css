@@ -28,12 +28,12 @@ header {
 
 /* top half: black, sits above header */
 .logo-top {
-    clip-path: inset(0 0 80px 0);  /* show top part only */
+    clip-path: inset(0 0 20px 0);  /* show top part only */
     top: -15px;
 }
 
 /* bottom half: white, sits on header */
 .logo-bottom {
-    clip-path: inset(80px 0 0 0); /* show bottom part only */
+    clip-path: inset(20px 0 0 0); /* show bottom part only */
     top: -15px;
 }
