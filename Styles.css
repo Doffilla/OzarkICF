@@ -1,22 +1,38 @@
-body{
-    margin:0;
+body {
+  margin: 0;
+  background: black; /* page background is black so top half blends */
 }
 
-header{
-    background:black;
-    height:80px;
-    position:relative;
+header {
+  background: black;
+  height: 80px;
+  position: relative;
 }
 
 /* logo container */
-.logo{
-    position:absolute;
-    left:20px;
-    top:-25px;   /* makes it stick up above header */
+.logo {
+  position: absolute;
+  left: 20px;
+  top: -40px; /* logo sticks up above header */
+  height: 120px; /* full logo height */
+  width: auto;
 }
 
-/* both images same size */
-.logo img{
-    height:110px;
-    position:absolute;
+/* common logo styles */
+.logo img {
+  position: absolute;
+  height: 120px; /* same as container height */
+  width: auto;
+  top: 0;
+  left: 0;
+}
+
+/* top half: black (will blend with page background) */
+.logo-top {
+  clip-path: inset(0 0 50% 0); /* show only top 50% */
+}
+
+/* bottom half: white (on black header) */
+.logo-bottom {
+  clip-path: inset(50% 0 0 0); /* show only bottom 50% */
 }
