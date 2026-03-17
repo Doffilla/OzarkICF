@@ -1,27 +1,41 @@
 body {
     margin: 0;
-    background: rgb(255, 255, 255); /* page background */
+    background: white;
 }
 
+/* HEADER DEFAULT (big) */
 header {
     background: black;
-    height: 60px;
+    height: 200px;
     position: relative;
+    transition: height 0.3s ease;
 }
 
-/* logo container */
+/* HEADER AFTER SCROLL */
+header.scrolled {
+    height: 60px;
+}
+
+/* LOGO */
 .logo {
     position: absolute;
-    left: 20px;      /* adjust horizontal position */
+    left: 20px;
     top: 0;
-    height: 120px;   /* full logo height */
+    height: 120px;
     width: auto;
+    opacity: 0;                 /* hidden at start */
+    transition: opacity 0.3s ease;
 }
 
-/* common logo styles */
+/* LOGO VISIBLE AFTER SCROLL */
+header.scrolled .logo {
+    opacity: 1;
+}
+
+/* your existing logo styles */
 .logo img {
     position: absolute;
-    height: 60px;   /* matches container height */
+    height: 60px;
     width: auto;
     left: 0;
 }
