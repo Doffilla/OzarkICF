@@ -9,7 +9,7 @@ header {
     height: 200px;
     position: sticky;
     z-index: 1000;
-    top: -20;
+    top: -80;
     transition: height 0.3s ease;
 }
 
