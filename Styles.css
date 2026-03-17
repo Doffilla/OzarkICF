@@ -3,7 +3,10 @@ body {
     background: white;
 }
 
-/* HEADER DEFAULT (big) */
+main {
+    padding-top: 20px;
+}
+
 header {
     background: black;
     height: 200px;
@@ -13,28 +16,25 @@ header {
     transition: height 0.3s ease;
 }
 
-/* HEADER AFTER SCROLL */
 header.scrolled {
     height: 60px;
 }
 
-/* LOGO */
 .logo {
     position: absolute;
     left: 20px;
     top: 0;
     height: 120px;
     width: auto;
-    opacity: 0;                 /* hidden at start */
+    opacity: 0;
     transition: opacity 0.3s ease;
 }
 
-/* LOGO VISIBLE AFTER SCROLL */
+
 header.scrolled .logo {
     opacity: 1;
 }
 
-/* your existing logo styles */
 .logo img {
     position: absolute;
     height: 60px;
