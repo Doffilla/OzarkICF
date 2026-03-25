@@ -27,6 +27,7 @@ header {
 }
 
 header.scrolled {
+    top: -20px;
     height: clamp(50px, 8vw, 60px);
 }
 
