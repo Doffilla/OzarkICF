@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    padding-top: 20px;
+    padding-top: clamp(15px, 20vw, 20px);
 }
 
 header::before {
@@ -20,7 +20,7 @@ header::before {
 header {
     background: black;
     height: clamp(60px, 20vw, 200px);
-    position: relative;
+    position: sticky;
     z-index: 1000;
     top: 0;
     transition: height 0.3s ease;
