@@ -21,8 +21,9 @@ header {
     background: black;
     height: clamp(60px, 20vw, 200px);
     position: sticky;
+    top: 0;              /* ✅ no movement */
+    margin-top: 20px;    /* ✅ creates the 20px gap */
     z-index: 1000;
-    top: -20px;
     transition: height 0.3s ease;
 }
 
