@@ -40,16 +40,6 @@ header.scrolled {
     transition: opacity 0.3s ease;
 }
 
-.big-header-logo {
-
-    position: absolute;
-    left: 20px;
-    top: 10px;
-    height: 180px;
-    width: auto;
-    
-}
-
 
 header.scrolled .small-header-logo {
     opacity: 1;
