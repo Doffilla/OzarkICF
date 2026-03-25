@@ -19,7 +19,7 @@ header::before {
 
 header {
     background: black;
-    height: clamp(10px, 20vw, 200px);
+    height: clamp(60px, 20vw, 200px);
     position: fixed;
     top: 20px;
     left: 0;
@@ -29,7 +29,7 @@ header {
 }
 
 header.scrolled {
-    height: clamp(10px, 8vw, 60px);
+    height: clamp(50px, 8vw, 60px);
 }
 
 .small-header-logo {
@@ -46,7 +46,7 @@ header.scrolled {
     position: absolute;
     left: 20px;
     top: 10px;
-    height: 90%;
+    height: clamp(80px, 18vw, 200px);
     width: auto;
     opacity: 1;
     transition: opacity 0.3s ease;
@@ -62,14 +62,14 @@ header.scrolled .big-header-logo {
 
 .big-header-logo img {
     position: absolute;
-    height: clamp(10px, 18vw, 180px);
+    height: 80%;
     width: auto;
     left: 0;
 }
 
 .small-header-logo img {
     position: absolute;
-    height: clamp(10px, 6vw, 60px);
+    height: clamp(40px, 6vw, 60px);
     width: auto;
     left: 0;
 }
