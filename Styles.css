@@ -20,7 +20,7 @@ header::before {
 header {
     background: black;
     height: clamp(60px, 20vw, 200px);
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     top: 0;
     transition: height 0.3s ease;
