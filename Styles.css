@@ -46,7 +46,7 @@ header.scrolled {
     position: absolute;
     left: 20px;
     top: 10px;
-    height: 200px;
+    height: 90%;
     width: auto;
     opacity: 1;
     transition: opacity 0.3s ease;
