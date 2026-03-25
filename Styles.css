@@ -20,9 +20,10 @@ header::before {
 header {
     background: black;
     height: clamp(60px, 20vw, 200px);
-    position: sticky;
-    top: 0;              /* ✅ no movement */
-    margin-top: 20px;    /* ✅ creates the 20px gap */
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
     z-index: 1000;
     transition: height 0.3s ease;
 }
