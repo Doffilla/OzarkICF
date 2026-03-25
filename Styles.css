@@ -43,7 +43,7 @@ header.scrolled {
 .big-header-logo {
     position: absolute;
     left: 20px;
-    top: 10;
+    top: 10px;
     height: 200px;
     width: auto;
     opacity: 1;
