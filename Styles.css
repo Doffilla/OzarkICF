@@ -20,14 +20,13 @@ header::before {
 header {
     background: black;
     height: clamp(60px, 20vw, 200px);
-    position: sticky;
+    position: absolute;
     z-index: 1000;
     top: 0;
     transition: height 0.3s ease;
 }
 
 header.scrolled {
-    top: 20px;
     height: clamp(50px, 8vw, 60px);
 }
 
