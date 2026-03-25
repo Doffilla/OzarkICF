@@ -58,16 +58,16 @@ header.scrolled .big-header-logo {
     opacity: 0;
 }
 
-.small-header-logo img {
+.big-header-logo img {
     position: absolute;
-    height: 60px;
+    height: clamp(80px, 18vw, 180px);
     width: auto;
     left: 0;
 }
 
-.big-header-logo img {
+.small-header-logo img {
     position: absolute;
-    height: 180px;
+    height: clamp(40px, 6vw, 60px);
     width: auto;
     left: 0;
 }
