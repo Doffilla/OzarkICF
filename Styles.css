@@ -54,6 +54,10 @@ header.scrolled .small-header-logo {
     opacity: 1;
 }
 
+header.scrolled .big-header-logo {
+    opacity: 0;
+}
+
 .small-header-logo img {
     position: absolute;
     height: 60px;
