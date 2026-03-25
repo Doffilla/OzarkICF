@@ -62,14 +62,14 @@ header.scrolled .big-header-logo {
 
 .big-header-logo img {
     position: absolute;
-    height: clamp(80px, 18vw, 180px);
+    height: clamp(70px, 18vw, 180px);
     width: auto;
     left: 0;
 }
 
 .small-header-logo img {
     position: absolute;
-    height: clamp(40px, 6vw, 60px);
+    height: clamp(30px, 6vw, 60px);
     width: auto;
     left: 0;
 }
