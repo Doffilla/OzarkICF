@@ -30,7 +30,7 @@ header.scrolled {
     height: 60px;
 }
 
-.logo {
+.small-header-logo {
     position: absolute;
     left: 20px;
     top: 0;
@@ -45,7 +45,7 @@ header.scrolled .logo {
     opacity: 1;
 }
 
-.logo img {
+.small-header-logo img {
     position: absolute;
     height: 60px;
     width: auto;
