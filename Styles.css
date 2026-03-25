@@ -52,6 +52,13 @@ header.scrolled .small-header-logo {
     left: 0;
 }
 
+.big-header-logo img {
+    position: absolute;
+    height: 180px;
+    width: auto;
+    left: 0;
+}
+
 .logo-top {
     clip-path: inset(0 0 15px 0);
     top: -15px;
